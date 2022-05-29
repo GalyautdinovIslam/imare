@@ -1,0 +1,24 @@
+# Database configuration
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.username=
+spring.datasource.password=
+spring.datasource.url=
+
+# Hibernate configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL10Dialect
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.defer-datasource-initialization=true
+spring.sql.init.mode=always
+
+# Request size configuration
+spring.servlet.multipart.max-request-size=100MB
+spring.servlet.multipart.max-file-size=100MB
+
+# Constants
+imare.subscriptions-page-size=50
+imare.posts-page-size=12
+imare.search-page-size=30
+imare.albums-page-size=20
+imare.files-storage-path=C:\\tmp
